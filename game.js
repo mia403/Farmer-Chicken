@@ -603,8 +603,8 @@ function gameOver() {
     <div style="margin:10px 0;font-size:16px">Score: <strong>${state.score}</strong></div>
     <div style="margin-bottom:8px">Highscore: <strong>${Math.max(state.score, state.highscore)}</strong></div>
     <div style="display:flex;gap:8px;justify-content:center">
-      <button id="g_restart" class="btn">Restart</button>
-      <button id="g_menu" class="btn">Main Menu</button>
+      <button id="g_restart" class="start">Restart</button>
+      <button id="g_menu" class="start">Main Menu</button>
     </div>
   </div>`;
     game.appendChild(ov);
