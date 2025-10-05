@@ -530,3 +530,16 @@ button.btn {
 .p {
  font-size: 15px;
 }
+
+
+.start {
+  border: 1px solid black;
+  background-color: var(--land);
+   display: inline-block;
+  margin-right: 20px;
+  padding: 8px;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
